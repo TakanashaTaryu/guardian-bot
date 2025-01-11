@@ -1,6 +1,6 @@
 # Bot Claim and Auto Fill Info
 
-This repository contains two JavaScript scripts designed to automate the process of claiming tickets and filling in personal information on the Furries community website.
+This repository contains two JavaScript scripts designed to automate the process of claiming tickets and filling in personal information on the website.
 
 ## Overview
 
@@ -10,7 +10,7 @@ This repository contains two JavaScript scripts designed to automate the process
 ## Prerequisites
 
 - A modern web browser that supports JavaScript and the Fetch API.
-- Access to the Furries community website.
+- Access to the website.
 
 ## Usage
 
