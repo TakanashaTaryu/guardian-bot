@@ -20,7 +20,28 @@ This repository contains two JavaScript scripts designed to automate the process
 2. **Start the Bot**: The script will start sending POST requests every 300 milliseconds until a successful response is received.
 3. **Open Terms URL**: Upon a successful claim, the script will open a new tab with the terms URL.
 
-#### Example
+#### Configuration
+
+input the tier id ticket
+```javascript
+    const payload = {
+        ticket_tier_id: 17 //input tier id ticket
+    }
+```
+
+input the delay time of the bot
+```javascript
+    if (delay > 0) {
+        setTimeout(() => {
+            startBot(300); // Start sending requests every 300 ms
+        }, delay);
+    } else {
+        // If the target time is already passed, start immediately
+        startBot(300);
+    }
+```
+
+#### Usage Example
 
 ```javascript
 // Run the script in the browser console
@@ -33,7 +54,21 @@ This repository contains two JavaScript scripts designed to automate the process
 2. **Send API Requests**: It sends a POST request to log a page view and a PUT request to update personal information.
 3. **Open Checkout URL**: After successfully updating the information, it opens the checkout page in a new tab.
 
-#### Example
+
+#### Configuration
+
+input your credential here
+```javascript
+    const payload2 = {
+        first_name: "first_name",
+        last_name: "last_name",
+        birth_date: "YYYY-MM-DD",
+        phone_number: "phone_number",
+        contact_email: "contact_email"
+    };
+```
+
+#### Usage Example
 
 ```javascript
 // Run the script in the browser console on the personal information page
